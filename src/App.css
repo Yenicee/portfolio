@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el modo claro */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+  background-image: linear-gradient(rgba(16, 16, 17, 0.903), rgb(31, 31, 35));
+
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode a {
+color: rgb(212, 212, 218);
+}
+
+.dark-mode h2 {
+  background: linear-gradient(to right, rgb(18, 51, 85), #0aa677);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark-mode h1 {
+  background: linear-gradient(to right, rgb(18, 51, 85), #0aa677);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark-mode h4{
+  background: linear-gradient(to right, rgb(18, 51, 85), #0aa677);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
